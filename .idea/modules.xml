@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImageProcessingJavaBeans.iml" filepath="$PROJECT_DIR$/ImageProcessingJavaBeans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" filepath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
+    </modules>
+  </component>
+</project>

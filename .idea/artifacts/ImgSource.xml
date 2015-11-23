@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ImgSource">
+    <output-path>$PROJECT_DIR$/out/artifacts/ImgSource</output-path>
+    <root id="archive" name="ImgSource.jar">
+      <element id="module-output" name="ImgSourceBean" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Aufgabe2/ImageProcessing/lib/jai_core.jar" />
+    </root>
+  </artifact>
+</component>
