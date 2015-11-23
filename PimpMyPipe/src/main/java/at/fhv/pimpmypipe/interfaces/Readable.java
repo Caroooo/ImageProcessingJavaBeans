@@ -1,4 +1,4 @@
-package interfaces;
+package at.fhv.pimpmypipe.interfaces;
 
 import java.io.StreamCorruptedException;
 

@@ -1,21 +1,21 @@
-package bean;
+package at.fhv.pimpmypipe.filters;
 
-import interfaces.Writeable;
-import interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.StreamCorruptedException;
 
-public abstract class SourceBean<T, S extends Closeable> implements Readable<T>, Runnable, Closeable {
+public abstract class Source<T, S extends Closeable> implements Readable<T>, Runnable, Closeable {
 
     protected Writeable<T> _writeable;
     protected S _input;
 
-    public SourceBean() {
+    public Source() {
     }
 
-    public SourceBean(Writeable<T> writeable) {
+    public Source(Writeable<T> writeable) {
         _writeable = writeable;
     }
 
@@ -53,14 +53,14 @@ public abstract class SourceBean<T, S extends Closeable> implements Readable<T>,
     public void run() {
         T value = null;
         try {
-            System.out.println("bean.SourceBean started at: " + System.nanoTime());
+            System.out.println("Source started at: " + System.nanoTime());
             _input = open();
             do {
                 value = readEntity();
                 _writeable.write(value);
             } while (value != null);
             close();
-            System.out.println("bean.SourceBean ended at: " + System.nanoTime());
+            System.out.println("Source ended at: " + System.nanoTime());
         } catch (IOException e) {
             e.printStackTrace();
         }

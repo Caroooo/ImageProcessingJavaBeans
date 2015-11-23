@@ -1,7 +1,7 @@
-package filter;
+package at.fhv.pimpmypipe.filters;
 
-import interfaces.Readable;
-import interfaces.Writeable;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import java.io.StreamCorruptedException;
 import java.security.InvalidParameterException;
@@ -24,7 +24,7 @@ public abstract class DataEnrichmentFilter<in, out> extends AbstractFilter<in, o
     }
 
     /**
-     * read an entity from the filter. the filter will act like an passive-filter
+     * read an entity from the filters. the filters will act like an passive-filters
      */
     public out read() throws StreamCorruptedException {
         // just read the next entity and return it 
@@ -32,8 +32,8 @@ public abstract class DataEnrichmentFilter<in, out> extends AbstractFilter<in, o
     }
 
     /**
-     * write an entity into the filter. the filter will act like an passive-filter
-     * and passes the entity to the next filter, after it processed it
+     * write an entity into the filters. the filters will act like an passive-filters
+     * and passes the entity to the next filters, after it processed it
      *
      * @param value
      * @throws StreamCorruptedException
@@ -80,7 +80,7 @@ public abstract class DataEnrichmentFilter<in, out> extends AbstractFilter<in, o
     }
 
     /**
-     * runs the filter in active-mode
+     * runs the filters in active-mode
      */
     public void run() {
         out output = null;//getNewEntityObject();
@@ -112,7 +112,7 @@ public abstract class DataEnrichmentFilter<in, out> extends AbstractFilter<in, o
     protected abstract boolean fillEntity(in nextVal, out entity);
 
     /**
-     * Abstract filter class asks implementation for new Entity-Object
+     * Abstract filters class asks implementation for new Entity-Object
      * (because it doesn't know the constructor-arguments)
      *
      * @return

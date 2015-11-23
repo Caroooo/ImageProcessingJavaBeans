@@ -1,8 +1,8 @@
-package pipe;
+package at.fhv.pimpmypipe.pipes;
 
-import interfaces.IOable;
-import interfaces.Readable;
-import interfaces.Writeable;
+import at.fhv.pimpmypipe.interfaces.IOable;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import java.io.StreamCorruptedException;
 

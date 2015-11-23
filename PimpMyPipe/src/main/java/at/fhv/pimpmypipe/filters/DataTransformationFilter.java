@@ -1,7 +1,7 @@
-package filter;
+package at.fhv.pimpmypipe.filters;
 
-import interfaces.Readable;
-import interfaces.Writeable;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import java.io.StreamCorruptedException;
 import java.security.InvalidParameterException;

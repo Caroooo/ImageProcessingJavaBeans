@@ -1,4 +1,4 @@
-package bean;
+package at.fhv.beans;
 
 import interfaces.Writeable;
 

@@ -1,6 +1,6 @@
-package pipe;
+package at.fhv.pimpmypipe.pipes;
 
-import interfaces.IOable;
+import at.fhv.pimpmypipe.interfaces.IOable;
 
 import java.io.StreamCorruptedException;
 import java.util.LinkedList;

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ImageProcessingJavaBeans.iml" filepath="$PROJECT_DIR$/ImageProcessingJavaBeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" filepath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" filepath="$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PipeBean/PipeBean.iml" filepath="$PROJECT_DIR$/PipeBean/PipeBean.iml" />
     </modules>
   </component>
 </project>

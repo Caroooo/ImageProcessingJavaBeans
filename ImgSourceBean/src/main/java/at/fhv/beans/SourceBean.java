@@ -1,21 +1,21 @@
-package filter;
+package at.fhv.beans;
 
-import interfaces.Readable;
 import interfaces.Writeable;
+import interfaces.Readable;
 
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.StreamCorruptedException;
 
-public abstract class Source<T, S extends Closeable> implements Readable<T>, Runnable, Closeable {
+public abstract class SourceBean<T, S extends Closeable> implements Readable<T>, Runnable, Closeable {
 
     protected Writeable<T> _writeable;
     protected S _input;
 
-    public Source() {
+    public SourceBean() {
     }
 
-    public Source(Writeable<T> writeable) {
+    public SourceBean(Writeable<T> writeable) {
         _writeable = writeable;
     }
 
@@ -53,14 +53,14 @@ public abstract class Source<T, S extends Closeable> implements Readable<T>, Run
     public void run() {
         T value = null;
         try {
-            System.out.println("Source started at: " + System.nanoTime());
+            System.out.println("SourceBean started at: " + System.nanoTime());
             _input = open();
             do {
                 value = readEntity();
                 _writeable.write(value);
             } while (value != null);
             close();
-            System.out.println("Source ended at: " + System.nanoTime());
+            System.out.println("SourceBean ended at: " + System.nanoTime());
         } catch (IOException e) {
             e.printStackTrace();
         }
