@@ -1,7 +1,4 @@
-package filter;
-
-import interfaces.Readable;
-import interfaces.Writeable;
+package at.fhv.beans;
 
 import javax.media.jai.PlanarImage;
 import java.awt.*;
