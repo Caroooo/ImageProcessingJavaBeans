@@ -1,8 +1,11 @@
 package at.fhv.beans;
 
+import at.fhv.pimpmypipe.filters.AbstractFilter;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
+
 import javax.media.jai.PlanarImage;
 import java.awt.*;
-import java.awt.image.RenderedImage;
 import java.io.StreamCorruptedException;
 import java.security.InvalidParameterException;
 
@@ -15,7 +18,7 @@ public class ROIFilter extends AbstractFilter<PlanarImage, PlanarImage> {
         _rectangle = rectangle;
     }
 
-    public ROIFilter(interfaces.Readable<PlanarImage> input, Rectangle rectangle) throws InvalidParameterException {
+    public ROIFilter(Readable<PlanarImage> input, Rectangle rectangle) throws InvalidParameterException {
         super(input);
         _rectangle = rectangle;
     }
@@ -36,7 +39,7 @@ public class ROIFilter extends AbstractFilter<PlanarImage, PlanarImage> {
 
     @Override
     public void run() {
-        PlanarImage input = null;
+        PlanarImage input;
         try {
             do {
                 input = readInput();
@@ -59,7 +62,7 @@ public class ROIFilter extends AbstractFilter<PlanarImage, PlanarImage> {
     }
 
     private PlanarImage createROI(PlanarImage image) {
-        PlanarImage img = PlanarImage.wrapRenderedImage((RenderedImage) image.getAsBufferedImage(_rectangle, image.getColorModel()));
+        PlanarImage img = PlanarImage.wrapRenderedImage(image.getAsBufferedImage(_rectangle, image.getColorModel()));
         img.setProperty("ThresholdX", (int) _rectangle.getX());
         img.setProperty("ThresholdY", (int) _rectangle.getY());
         return img;

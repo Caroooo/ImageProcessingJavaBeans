@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ImgSourceBean:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ImgSourceBean_jar</output-path>
+    <root id="archive" name="ImgSourceBean.jar">
+      <element id="module-output" name="ImgSourceBean" />
+      <element id="module-output" name="PimpMyPipe" />
+    </root>
+  </artifact>
+</component>

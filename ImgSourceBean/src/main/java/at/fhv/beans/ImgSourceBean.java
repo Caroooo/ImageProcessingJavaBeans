@@ -1,33 +1,26 @@
 package at.fhv.beans;
 
-import interfaces.Writeable;
+import at.fhv.beans.shared.ImageEventSource;
+import at.fhv.beans.shared.ImageEventSupport;
+import at.fhv.beans.shared.ImageListener;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
-import javax.imageio.ImageIO;
 import javax.media.jai.PlanarImage;
 import java.awt.event.ActionEvent;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 
-public class ImgSourceBean extends SourceBean<PlanarImage, InputStream> {
+public class ImgSourceBean implements ImageEventSource {
 
-    private String _filePath = "";
-    private PlanarImage _img;
-    private int _iterations = 1;
-    private int _counter = 0;
+    private ImageEventSupport _imageEventSupport;
+    private Writeable<PlanarImage> _writeable;
+    private ImgSource _imgSource;
+
+    private String _filePath;
 
     public ImgSourceBean() {
-
-    }
-
-    public int getIterations() {
-        return _iterations;
-    }
-
-    public void setIterations(int iterations) {
-        _iterations = iterations;
+        _imageEventSupport = new ImageEventSupport();
+        _writeable = image -> _imageEventSupport.notifyImageListeners(image);
+        _imgSource = new ImgSource(_writeable, null);
+        _filePath = "";
     }
 
     public String getFilePath() {
@@ -36,39 +29,20 @@ public class ImgSourceBean extends SourceBean<PlanarImage, InputStream> {
 
     public void setFilePath(String filepath) {
         _filePath = filepath;
+        _imgSource.setFilePath(_filePath);
     }
 
-    public Writeable<PlanarImage> getWritable() {
-        return _writeable;
-    }
-
-    public void setWriteable(Writeable<PlanarImage> writeable) {
-        _writeable = writeable;
+    public void start(ActionEvent event) {
+        new Thread(_imgSource).start();
     }
 
     @Override
-    protected InputStream open() throws IOException {
-        return new FileInputStream(new File(_filePath));
+    public void addImageListener(ImageListener listener) {
+        _imageEventSupport.addImageListener(listener);
     }
 
     @Override
-    protected PlanarImage readEntity() {
-        try {
-            BufferedImage img = ImageIO.read(_input);
-            if (img != null) {
-                _img = PlanarImage.wrapRenderedImage(img);
-            }
-            if ((_img != null) && (_counter < _iterations)) {
-                _counter++;
-                return _img;
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    public void startPush(ActionEvent event) {
-        new Thread(this).start();
+    public void removeImageListener(ImageListener listener) {
+        _imageEventSupport.removeImageListener(listener);
     }
 }

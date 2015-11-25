@@ -7,7 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="PimpMyPipe" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -26,6 +25,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="Shared" />
   </component>
 </module>

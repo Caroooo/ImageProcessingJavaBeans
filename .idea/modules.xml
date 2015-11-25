@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" filepath="$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/PipeBean/PipeBean.iml" filepath="$PROJECT_DIR$/PipeBean/PipeBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" filepath="$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shared/Shared.iml" filepath="$PROJECT_DIR$/Shared/Shared.iml" />
     </modules>
   </component>
 </project>
