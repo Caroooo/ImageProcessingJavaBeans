@@ -7,17 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/DisplayBean_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DisplayBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DisplayBean/src/main/java/at/fhv/beans/DisplayBean.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ImgSource/ImgSource.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ImgSourceBean_jar/ImgSourceBean.jar" afterPath="$PROJECT_DIR$/out/artifacts/ImgSourceBean_jar/ImgSourceBean.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" afterPath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSource.java" afterPath="$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" afterPath="$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/production/ImgSourceBean/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="ImageProcessingJavaBeans.iws" />
@@ -228,76 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DisplayBean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DisplayBean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DisplayBean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,7 +686,7 @@
       <workItem from="1448280388905" duration="2900000" />
       <workItem from="1448443288695" duration="3746000" />
       <workItem from="1448448064603" duration="5648000" />
-      <workItem from="1448454453558" duration="2589000" />
+      <workItem from="1448454453558" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="put pimpMyPipe in separate module">
       <created>1448281275204</created>
@@ -797,11 +718,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448447017124</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added displaybean">
+      <created>1448459636399</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1448459636399</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21015000" />
+    <option name="totallyTimeSpent" value="21034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1378" height="744" extended-state="0" />
@@ -849,7 +776,8 @@
     <MESSAGE value="added gitignore" />
     <MESSAGE value="added module for ROIFilterBean" />
     <MESSAGE value="added beans for imgsource and roifilter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added beans for imgsource and roifilter" />
+    <MESSAGE value="added displaybean" />
+    <option name="LAST_COMMIT_MESSAGE" value="added displaybean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
