@@ -14,30 +14,14 @@ import java.io.InputStream;
 public class ImgSource extends Source<PlanarImage, InputStream> {
 
     private String _filePath;
-    private PlanarImage _img;
-    private int _i;
-    private int _counter;
 
     public ImgSource(String filePath) {
         _filePath = filePath;
-        _i = 1;
-    }
-
-    public ImgSource(String filePath, int i) {
-        _filePath = filePath;
-        _i = i;
     }
 
     public ImgSource(Writeable<PlanarImage> writeable, String filePath) {
         super(writeable);
         _filePath = filePath;
-        _i = 1;
-    }
-
-    public ImgSource(Writeable<PlanarImage> writeable, String filePath, int i) {
-        super(writeable);
-        _filePath = filePath;
-        _i = i;
     }
 
     public void setFilePath(String filePath) {
@@ -54,11 +38,7 @@ public class ImgSource extends Source<PlanarImage, InputStream> {
         try {
             BufferedImage img = ImageIO.read(_input);
             if (img != null) {
-                _img = PlanarImage.wrapRenderedImage(img);
-            }
-            if ((_img != null) && (_counter < _i)) {
-                _counter++;
-                return _img;
+                return PlanarImage.wrapRenderedImage(img);
             }
         } catch (IOException e) {
             e.printStackTrace();

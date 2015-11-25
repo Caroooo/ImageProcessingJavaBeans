@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DisplayBean/DisplayBean.iml" filepath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageProcessingJavaBeans.iml" filepath="$PROJECT_DIR$/ImageProcessingJavaBeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" filepath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" filepath="$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" />
