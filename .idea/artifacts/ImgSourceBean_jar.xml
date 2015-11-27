@@ -4,6 +4,9 @@
     <root id="archive" name="ImgSourceBean.jar">
       <element id="module-output" name="ImgSourceBean" />
       <element id="module-output" name="PimpMyPipe" />
+      <element id="module-output" name="Shared" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jai_codec.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jai_core.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

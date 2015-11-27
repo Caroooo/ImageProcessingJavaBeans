@@ -1,7 +1,8 @@
-package filter;
+package at.fhv.beans;
 
-import interfaces.Readable;
-import interfaces.Writeable;
+import at.fhv.pimpmypipe.filters.DataTransformationFilter;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import javax.media.jai.JAI;
 import javax.media.jai.PlanarImage;
@@ -14,7 +15,7 @@ public class MedianFilter extends DataTransformationFilter<PlanarImage> {
     private MedianFilterShape _filterShape;
     private int _maskSize;
 
-    public MedianFilter(interfaces.Readable<PlanarImage> input, Writeable<PlanarImage> output, MedianFilterShape filterShape, int maskSize) throws InvalidParameterException {
+    public MedianFilter(Readable<PlanarImage> input, Writeable<PlanarImage> output, MedianFilterShape filterShape, int maskSize) throws InvalidParameterException {
         super(input, output);
         _filterShape = filterShape;
         _maskSize = maskSize;

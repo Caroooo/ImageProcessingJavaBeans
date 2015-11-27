@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DisplayBean/DisplayBean.iml" filepath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageProcessingJavaBeans.iml" filepath="$PROJECT_DIR$/ImageProcessingJavaBeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" filepath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" filepath="$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" filepath="$PROJECT_DIR$/PimpMyPipe/PimpMyPipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/PipeBean/PipeBean.iml" filepath="$PROJECT_DIR$/PipeBean/PipeBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" filepath="$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" />

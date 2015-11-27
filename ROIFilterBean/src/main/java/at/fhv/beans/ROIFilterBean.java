@@ -14,8 +14,6 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
 
     private ImageEventSupport _imageEventSupport;
     private Writeable<PlanarImage> _writeable;
-    private Rectangle _rectangle;
-    private ROIFilter _roiFilter;
 
     private int _topLeftX;
     private int _topLeftY;
@@ -25,8 +23,6 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
     public ROIFilterBean() {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
-        _rectangle = new Rectangle();
-        _roiFilter = new ROIFilter(_writeable, _rectangle);
         _topLeftX = 0;
         _topLeftY = 0;
         _width = 0;
@@ -39,7 +35,6 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
 
     public void setTopLeftX(int topLeftX) {
         _topLeftX = topLeftX;
-        _rectangle.setBounds(_topLeftX, _topLeftY, _width, _height);
     }
 
     public int getTopLeftY() {
@@ -48,7 +43,6 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
 
     public void setTopLeftY(int topLeftY) {
         _topLeftY = topLeftY;
-        _rectangle.setBounds(_topLeftX, _topLeftY, _width, _height);
     }
 
     public int getWidth() {
@@ -57,7 +51,6 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
 
     public void setWidth(int width) {
         _width = width;
-        _rectangle.setBounds(_topLeftX, _topLeftY, _width, _height);
     }
 
     public int getHeight() {
@@ -66,7 +59,6 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
 
     public void setHeight(int height) {
         _height = height;
-        _rectangle.setBounds(_topLeftX, _topLeftY, _width, _height);
     }
 
     @Override
@@ -81,8 +73,9 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
 
     @Override
     public void onImage(ImageEvent event) {
+        ROIFilter roiFilter = new ROIFilter(_writeable, new Rectangle(_topLeftX, _topLeftY, _width, _height));
         try {
-            _roiFilter.write(event.getImage());
+            roiFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {
             e.printStackTrace();
         }

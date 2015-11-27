@@ -30,8 +30,8 @@ public class DisplayBean extends Panel implements ImageEventSource, ImageListene
     }
 
     @Override
-    public void onImage(ImageEvent e) {
-        PlanarImage image = e.getImage();
+    public void onImage(ImageEvent event) {
+        PlanarImage image = event.getImage();
         if (image != null) {
             removeAll();
             add(new DisplayJAI(image));
