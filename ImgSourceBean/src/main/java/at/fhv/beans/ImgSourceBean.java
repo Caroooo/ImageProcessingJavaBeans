@@ -12,14 +12,12 @@ public class ImgSourceBean implements ImageEventSource {
 
     private ImageEventSupport _imageEventSupport;
     private Writeable<PlanarImage> _writeable;
-    private ImgSource _imgSource;
 
     private String _filePath;
 
     public ImgSourceBean() {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
-        _imgSource = new ImgSource(_writeable, null);
         _filePath = "";
     }
 
@@ -29,11 +27,10 @@ public class ImgSourceBean implements ImageEventSource {
 
     public void setFilePath(String filepath) {
         _filePath = filepath;
-        _imgSource.setFilePath(_filePath);
     }
 
     public void start(ActionEvent event) {
-        new Thread(_imgSource).start();
+        new Thread(new ImgSource(_writeable, _filePath)).start();
     }
 
     @Override
