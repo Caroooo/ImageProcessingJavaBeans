@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="MedianFilterBean:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/MedianFilterBean_jar</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/beans</output-path>
     <root id="archive" name="MedianFilterBean.jar">
       <element id="module-output" name="MedianFilterBean" />
       <element id="module-output" name="PimpMyPipe" />
