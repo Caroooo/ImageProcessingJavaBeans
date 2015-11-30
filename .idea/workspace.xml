@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/bean/ImgSourceBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/bean/SourceBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/interfaces/IOable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/interfaces/Readable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/interfaces/Writeable.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" afterPath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" />
     </list>
     <ignored path="ImageProcessingJavaBeans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -493,6 +486,117 @@
       <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\DisplayBean\src\main" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilterBean.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/ImgSourceBean_jar/ImgSourceBean.jar</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager" selected="Application.OpeningFilterBean">
     <configuration default="false" name="OpeningFilterBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -952,7 +1056,7 @@
       <workItem from="1448454453558" duration="2634000" />
       <workItem from="1448639739399" duration="9077000" />
       <workItem from="1448717230503" duration="17000" />
-      <workItem from="1448874110236" duration="3707000" />
+      <workItem from="1448874110236" duration="3753000" />
     </task>
     <task id="LOCAL-00001" summary="put pimpMyPipe in separate module">
       <created>1448281275204</created>
@@ -1038,11 +1142,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448876065721</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added listeners, event and support for CoordinateEvent">
+      <created>1448877827349</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1448877827349</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33861000" />
+    <option name="totallyTimeSpent" value="33907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
