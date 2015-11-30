@@ -11,41 +11,41 @@ import java.io.StreamCorruptedException;
 
 public class ThresholdFilterBean implements ImageEventSource, ImageListener {
 
-    private double[] _low;
-    private double[] _high;
-    private double[] _map;
+    private double _low;
+    private double _high;
+    private double _map;
     private ImageEventSupport _imageEventSupport;
     private Writeable<PlanarImage> _writeable;
 
     public ThresholdFilterBean(){
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
-        _low = new double[]{1,0};
-        _high = new double[]{1,0};
-        _map = new double[]{1,0};
+        _low = 0;
+        _high = 0;
+        _map = 0;
     }
 
-    public double[] getLow(){
+    public double getLow(){
         return _low;
     }
 
-    public void setLow(double[] low){
+    public void setLow(double low){
         _low = low;
     }
 
-    public double[] getHigh(){
+    public double getHigh(){
         return _high;
     }
 
-    public void setHigh(double[] high){
+    public void setHigh(double high){
         _high = high;
     }
 
-    public double[] getMap(){
+    public double getMap(){
         return _map;
     }
 
-    public void setMap(double[] map){
+    public void setMap(double map){
         _map = map;
     }
 
@@ -61,7 +61,7 @@ public class ThresholdFilterBean implements ImageEventSource, ImageListener {
 
     @Override
     public void onImage(ImageEvent event) {
-        ThresholdFilter thresholdFilter = new ThresholdFilter(_writeable,_low, _high, _map);
+        ThresholdFilter thresholdFilter = new ThresholdFilter(_writeable,new double[]{_low},new double[]{ _high},new double[]{_map});
         try {
             thresholdFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {
