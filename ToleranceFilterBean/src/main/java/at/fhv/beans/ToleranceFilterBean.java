@@ -9,6 +9,7 @@ import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import java.io.File;
 import java.io.StreamCorruptedException;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class ToleranceFilterBean implements CoordinateEventSource, CoordinateListener {
@@ -31,22 +32,21 @@ public class ToleranceFilterBean implements CoordinateEventSource, CoordinateLis
     }
 
     public String getOptimalPositions() {
-        String optimalPositions = _optimalPositions.toString();
+        String optimalPositions = Arrays.toString(_optimalPositions);
         return optimalPositions.substring(1, optimalPositions.length() - 1);
     }
 
     public void setOptimalPositions(String optimalPositions) {
-        String[] values = optimalPositions.replaceAll("[^0-9^,]", "").split(",");
-        int[] pos = new int[values.length];
+        String[] values = optimalPositions.replaceAll(" ", "").split("\\],\\[");
+        Coordinate[] coordinates = new Coordinate[values.length];
         try {
             for (int i = 0; i < values.length; ++i) {
-                pos[i] = Integer.parseInt(values[i]);
+                coordinates[i] = Coordinate.parse(values[i].replace("[\\[\\]]", ""));
             }
-            return new Coordinate(pos[0], pos[1]);
+            _optimalPositions = coordinates;
         } catch (NumberFormatException e) {
             e.printStackTrace();
         }
-        return null;
     }
 
     public int getXTol() {
