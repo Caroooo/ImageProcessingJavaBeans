@@ -1,7 +1,8 @@
-package filter;
+package at.fhv.beans;
 
-import interfaces.Readable;
-import interfaces.Writeable;
+import at.fhv.pimpmypipe.filters.DataTransformationFilter;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import javax.media.jai.JAI;
 import javax.media.jai.PlanarImage;
@@ -14,7 +15,7 @@ public class ThresholdFilter extends DataTransformationFilter<PlanarImage> {
     private double[] _high;
     private double[] _map;
 
-    public ThresholdFilter(interfaces.Readable<PlanarImage> input, Writeable<PlanarImage> output, double[] low, double[] high, double[] map) throws InvalidParameterException {
+    public ThresholdFilter(Readable<PlanarImage> input, Writeable<PlanarImage> output, double[] low, double[] high, double[] map) throws InvalidParameterException {
         super(input, output);
         _low = low;
         _high = high;
