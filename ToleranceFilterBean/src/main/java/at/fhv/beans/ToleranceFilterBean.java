@@ -85,7 +85,7 @@ public class ToleranceFilterBean implements CoordinateEventSource, CoordinateLis
 
     @Override
     public void onCoordinate(CoordinateEvent event) {
-        ToleranceFilter toleranceFilter = new ToleranceFilter(_writeable, null, _xTol, _yTol, new File(_filePath));
+        ToleranceFilter toleranceFilter = new ToleranceFilter(_writeable, _optimalPositions, _xTol, _yTol, new File(_filePath));
         try {
             toleranceFilter.write(event.getCoordinates());
         } catch (StreamCorruptedException e) {

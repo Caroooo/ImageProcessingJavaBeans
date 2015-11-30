@@ -1,9 +1,9 @@
 package at.fhv.beans;
 
-import at.fhv.beans.shared.ImageEvent;
-import at.fhv.beans.shared.ImageEventSource;
 import at.fhv.beans.shared.ImageEventSupport;
-import at.fhv.beans.shared.ImageListener;
+import at.fhv.beans.shared.events.ImageEvent;
+import at.fhv.beans.shared.interfaces.ImageEventSource;
+import at.fhv.beans.shared.interfaces.ImageListener;
 import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import javax.media.jai.PlanarImage;
@@ -17,7 +17,7 @@ public class ThresholdFilterBean implements ImageEventSource, ImageListener {
     private ImageEventSupport _imageEventSupport;
     private Writeable<PlanarImage> _writeable;
 
-    public ThresholdFilterBean(){
+    public ThresholdFilterBean() {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
         _low = 0;
@@ -25,27 +25,27 @@ public class ThresholdFilterBean implements ImageEventSource, ImageListener {
         _map = 0;
     }
 
-    public double getLow(){
+    public double getLow() {
         return _low;
     }
 
-    public void setLow(double low){
+    public void setLow(double low) {
         _low = low;
     }
 
-    public double getHigh(){
+    public double getHigh() {
         return _high;
     }
 
-    public void setHigh(double high){
+    public void setHigh(double high) {
         _high = high;
     }
 
-    public double getMap(){
+    public double getMap() {
         return _map;
     }
 
-    public void setMap(double map){
+    public void setMap(double map) {
         _map = map;
     }
 
@@ -61,7 +61,7 @@ public class ThresholdFilterBean implements ImageEventSource, ImageListener {
 
     @Override
     public void onImage(ImageEvent event) {
-        ThresholdFilter thresholdFilter = new ThresholdFilter(_writeable,new double[]{_low},new double[]{ _high},new double[]{_map});
+        ThresholdFilter thresholdFilter = new ThresholdFilter(_writeable, new double[]{_low}, new double[]{_high}, new double[]{_map});
         try {
             thresholdFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {
