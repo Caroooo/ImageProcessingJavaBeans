@@ -1,8 +1,9 @@
-package filter;
+package at.fhv.beans;
 
-import interfaces.Readable;
-import interfaces.Writeable;
-import model.Coordinate;
+import at.fhv.beans.shared.model.Coordinate;
+import at.fhv.pimpmypipe.filters.AbstractFilter;
+import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -66,7 +67,7 @@ public class ToleranceFilter extends AbstractFilter<LinkedList<Coordinate>, Link
 
     @Override
     public void run() {
-        LinkedList<Coordinate> input = null;
+        LinkedList<Coordinate> input;
         try {
             do {
                 input = readInput();
