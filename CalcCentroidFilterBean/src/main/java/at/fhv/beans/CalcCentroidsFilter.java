@@ -4,9 +4,12 @@
  */
 package at.fhv.beans;
 
-import interfaces.Readable;
-import interfaces.Writeable;
-import model.Coordinate;
+
+
+import at.fhv.beans.shared.model.Coordinate;
+import at.fhv.pimpmypipe.filters.DataEnrichmentFilter;
+import at.fhv.pimpmypipe.interfaces.Writeable;
+import at.fhv.pimpmypipe.interfaces.Readable;
 
 import javax.media.jai.PlanarImage;
 import java.awt.image.BufferedImage;
@@ -19,7 +22,7 @@ public class CalcCentroidsFilter extends DataEnrichmentFilter<PlanarImage, Linke
 
     private HashMap<Coordinate, Boolean> _general = new HashMap<Coordinate, Boolean>();
     private LinkedList<LinkedList<Coordinate>> _figures = new LinkedList<LinkedList<Coordinate>>();
-    private javax.media.jai.PlanarImage _image;
+    private PlanarImage _image;
 
     public CalcCentroidsFilter(Readable<PlanarImage> input, Writeable<LinkedList<Coordinate>> output) throws InvalidParameterException {
         super(input, output);
