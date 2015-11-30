@@ -1,4 +1,4 @@
-package at.fhv.beans.shared;
+package at.fhv.beans.shared.events;
 
 import javax.media.jai.PlanarImage;
 import java.util.EventObject;

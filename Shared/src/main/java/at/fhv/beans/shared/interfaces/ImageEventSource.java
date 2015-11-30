@@ -1,4 +1,6 @@
-package at.fhv.beans.shared;
+package at.fhv.beans.shared.interfaces;
+
+import at.fhv.beans.shared.interfaces.ImageListener;
 
 public interface ImageEventSource {
     void addImageListener(ImageListener listener);

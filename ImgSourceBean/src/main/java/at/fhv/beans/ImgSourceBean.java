@@ -1,8 +1,8 @@
 package at.fhv.beans;
 
-import at.fhv.beans.shared.ImageEventSource;
+import at.fhv.beans.shared.interfaces.ImageEventSource;
 import at.fhv.beans.shared.ImageEventSupport;
-import at.fhv.beans.shared.ImageListener;
+import at.fhv.beans.shared.interfaces.ImageListener;
 import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import javax.media.jai.PlanarImage;
