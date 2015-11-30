@@ -3,18 +3,18 @@ package at.fhv.beans.shared.events;
 import at.fhv.beans.shared.model.Coordinate;
 
 import java.util.EventObject;
-import java.util.List;
+import java.util.LinkedList;
 
 public class CoordinateEvent extends EventObject {
 
-    private List<Coordinate> _coordinates;
+    private LinkedList<Coordinate> _coordinates;
 
-    public CoordinateEvent(Object source, List<Coordinate> coordinates) {
+    public CoordinateEvent(Object source, LinkedList<Coordinate> coordinates) {
         super(source);
         _coordinates = coordinates;
     }
 
-    public List<Coordinate> getCoordinates() {
+    public LinkedList<Coordinate> getCoordinates() {
         return _coordinates;
     }
 }

@@ -26,7 +26,7 @@ public class CoordinateEventSupport implements CoordinateEventSource {
         _listeners.remove(listener);
     }
 
-    public void notifyCoordinateListeners(List<Coordinate> coordinates) {
+    public void notifyCoordinateListeners(LinkedList<Coordinate> coordinates) {
         CoordinateEvent e = new CoordinateEvent(this, coordinates);
         for (CoordinateListener listener : _listeners) {
             listener.onCoordinate(e);

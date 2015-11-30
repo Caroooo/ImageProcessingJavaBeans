@@ -6,27 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="added listeners, event and support for CoordinateEvent">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateEventSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ToleranceFilterBean/ToleranceFilterBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/bean/ImgSourceBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/bean/SourceBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/interfaces/IOable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/interfaces/Readable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ImgSourceBean/interfaces/Writeable.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DisplayBean/src/main/java/at/fhv/beans/DisplayBean.java" afterPath="$PROJECT_DIR$/DisplayBean/src/main/java/at/fhv/beans/DisplayBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSourceBean.java" afterPath="$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSourceBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedianFilterBean/src/main/java/at/fhv/beans/MedianFilterBean.java" afterPath="$PROJECT_DIR$/MedianFilterBean/src/main/java/at/fhv/beans/MedianFilterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpeningFilterBean/src/main/java/at/fhv/beans/OpeningFilterBean.java" afterPath="$PROJECT_DIR$/OpeningFilterBean/src/main/java/at/fhv/beans/OpeningFilterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ROIFilterBean/src/main/java/at/fhv/beans/ROIFilterBean.java" afterPath="$PROJECT_DIR$/ROIFilterBean/src/main/java/at/fhv/beans/ROIFilterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/ImageEventSupport.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/ImageEventSupport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilterBean.java" afterPath="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilterBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/ImageEvent.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/ImageEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/ImageEventSource.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/ImageEventSource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/ImageListener.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/ImageListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/filter/ToleranceFilter.java" afterPath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" afterPath="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" />
     </list>
     <ignored path="ImageProcessingJavaBeans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,14 +38,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ToleranceFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilter.java">
+      <file leaf-file-name="ToleranceFilterBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34920636">
-              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.41798943">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1828#1829#0" expanded="true" />
+                <element signature="e#1865#1866#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1921#1922#0" expanded="true" />
+                <element signature="e#1949#1950#0" expanded="true" />
+                <element signature="e#1986#1987#0" expanded="true" />
+                <element signature="e#2014#2015#0" expanded="true" />
+                <element signature="e#2049#2050#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2129#2130#0" expanded="true" />
+                <element signature="e#2165#2166#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coordinate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="18" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToleranceFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/OpeningFilterBean/src/main/java/at/fhv/beans/OpeningFilterBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ImgSourceBean/src/bean/ImgSource.java" />
         <option value="$PROJECT_DIR$/ImgSourceBean/META-INF/manifest.mf" />
         <option value="$PROJECT_DIR$/ImgSourceBean/src/main/resources/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/ImgSourceBean/src/main/java/bean/ImgSource.java" />
@@ -136,16 +156,17 @@
         <option value="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilterBean.java" />
         <option value="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilter.java" />
-        <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" />
         <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/Coordinate.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEvent.java" />
-        <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateListener.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateEventSource.java" />
-        <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/ImageEventSupport.java" />
         <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilter.java" />
+        <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" />
+        <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java" />
+        <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java" />
+        <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java" />
       </list>
     </option>
   </component>
@@ -295,24 +316,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageProcessingJavaBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -357,7 +360,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ROIFilterBean" />
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +394,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ROIFilterBean" />
+              <option name="myItemId" value="OpeningFilterBean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageProcessingJavaBeans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageProcessingJavaBeans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpeningFilterBean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -397,7 +434,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ROIFilterBean" />
+              <option name="myItemId" value="OpeningFilterBean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -915,7 +952,7 @@
       <workItem from="1448454453558" duration="2634000" />
       <workItem from="1448639739399" duration="9077000" />
       <workItem from="1448717230503" duration="17000" />
-      <workItem from="1448874110236" duration="1947000" />
+      <workItem from="1448874110236" duration="3707000" />
     </task>
     <task id="LOCAL-00001" summary="put pimpMyPipe in separate module">
       <created>1448281275204</created>
@@ -995,11 +1032,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448874431028</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added listeners, event and support for CoordinateEvent">
+      <created>1448876065721</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1448876065721</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32101000" />
+    <option name="totallyTimeSpent" value="33861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1084,13 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07311828">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/ImageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21935484">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1278,7 @@
         <state vertical-scroll-proportion="0.33663365">
           <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,7 +1323,7 @@
         <state vertical-scroll-proportion="1.78125">
           <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1324,17 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ROIFilterBean/src/main/java/at/fhv/beans/ROIFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11221122">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.40264025">
@@ -1348,16 +1373,8 @@
         <state vertical-scroll-proportion="0.5330033">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028052805">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,14 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028052805">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1385,42 +1394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36468646">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/ImageListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14026402">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14026402">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateEventSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05610561">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36468646">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1444,22 +1421,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ROIFilterBean/src/main/java/at/fhv/beans/ROIFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39273927">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30858085">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/ImageEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14026402">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateEventSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05610561">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14026402">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEventSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39273927">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OpeningFilterBean/src/main/java/at/fhv/beans/OpeningFilterBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilter.java">
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34920636">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/ToleranceFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41798943">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2129#2130#0" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
           </folding>
         </state>
       </provider>
