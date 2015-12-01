@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalcCentroidFilterBean/CalcCentroidFilterBean.iml" filepath="$PROJECT_DIR$/CalcCentroidFilterBean/CalcCentroidFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/DisplayBean/DisplayBean.iml" filepath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileOutputFilterBean/FileOutputFilterBean.iml" filepath="$PROJECT_DIR$/FileOutputFilterBean/FileOutputFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageProcessingJavaBeans.iml" filepath="$PROJECT_DIR$/ImageProcessingJavaBeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" filepath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" filepath="$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" />
