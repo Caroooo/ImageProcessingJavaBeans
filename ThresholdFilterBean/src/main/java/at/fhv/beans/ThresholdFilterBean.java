@@ -11,11 +11,12 @@ import java.io.StreamCorruptedException;
 
 public class ThresholdFilterBean implements ImageEventSource, ImageListener {
 
+    private ImageEventSupport _imageEventSupport;
+    private Writeable<PlanarImage> _writeable;
+
     private double _low;
     private double _high;
     private double _map;
-    private ImageEventSupport _imageEventSupport;
-    private Writeable<PlanarImage> _writeable;
 
     public ThresholdFilterBean() {
         _imageEventSupport = new ImageEventSupport();

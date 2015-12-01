@@ -1,8 +1,8 @@
 package at.fhv.beans;
 
+import at.fhv.beans.shared.ImageEventSupport;
 import at.fhv.beans.shared.events.ImageEvent;
 import at.fhv.beans.shared.interfaces.ImageEventSource;
-import at.fhv.beans.shared.ImageEventSupport;
 import at.fhv.beans.shared.interfaces.ImageListener;
 import com.sun.media.jai.widget.DisplayJAI;
 

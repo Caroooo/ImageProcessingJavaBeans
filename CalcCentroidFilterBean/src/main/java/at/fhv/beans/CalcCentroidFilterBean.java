@@ -13,24 +13,13 @@ import java.util.LinkedList;
 
 public class CalcCentroidFilterBean implements CoordinateEventSource, ImageListener {
 
-
     private CoordinateEventSupport _coordinateEventSupport;
     private Writeable<LinkedList<Coordinate>> _writeable;
 
-    public CalcCentroidFilterBean(){
+    public CalcCentroidFilterBean() {
         _coordinateEventSupport = new CoordinateEventSupport();
         _writeable = coordinates -> _coordinateEventSupport.notifyCoordinateListeners(coordinates);
 
-    }
-
-    @Override
-    public void onImage(ImageEvent event) {
-        CalcCentroidsFilter calcCentroidFilter = new CalcCentroidsFilter(_writeable);
-        try {
-            calcCentroidFilter.write(event.getImage());
-        } catch (StreamCorruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     @Override
@@ -41,5 +30,15 @@ public class CalcCentroidFilterBean implements CoordinateEventSource, ImageListe
     @Override
     public void removeCoordinateListener(CoordinateListener listener) {
         _coordinateEventSupport.removeCoordinateListener(listener);
+    }
+
+    @Override
+    public void onImage(ImageEvent event) {
+        CalcCentroidsFilter calcCentroidFilter = new CalcCentroidsFilter(_writeable);
+        try {
+            calcCentroidFilter.write(event.getImage());
+        } catch (StreamCorruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
