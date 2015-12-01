@@ -5,11 +5,10 @@
 package at.fhv.beans;
 
 
-
 import at.fhv.beans.shared.model.Coordinate;
 import at.fhv.pimpmypipe.filters.DataEnrichmentFilter;
-import at.fhv.pimpmypipe.interfaces.Writeable;
 import at.fhv.pimpmypipe.interfaces.Readable;
+import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import javax.media.jai.PlanarImage;
 import java.awt.image.BufferedImage;
@@ -119,7 +118,7 @@ public class CalcCentroidsFilter extends DataEnrichmentFilter<PlanarImage, Linke
 
             int xMedian = xValues.get(xValues.size() / 2);
             int yMedian = yValues.get(yValues.size() / 2);
-            
+
             centroids[i] = new Coordinate(xMedian + (int) _image.getProperty("ThresholdX"), yMedian + (int) _image.getProperty("ThresholdY"));
 
             i++;
