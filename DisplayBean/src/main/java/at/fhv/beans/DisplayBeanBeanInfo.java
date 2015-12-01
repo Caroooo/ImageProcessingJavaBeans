@@ -8,7 +8,7 @@ import java.beans.*;
 public class DisplayBeanBeanInfo extends SimpleBeanInfo {
 
     public PropertyDescriptor[] getPropertyDescriptors() {
-        return new PropertyDescriptor[0];
+        return new PropertyDescriptor[]{};
     }
 
     public EventSetDescriptor[] getEventSetDescriptors() {
