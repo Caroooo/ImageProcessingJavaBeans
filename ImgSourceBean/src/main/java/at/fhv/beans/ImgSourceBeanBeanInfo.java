@@ -1,20 +1,16 @@
 package at.fhv.beans;
 
-import at.fhv.beans.shared.events.ImageEvent;
 import at.fhv.beans.shared.interfaces.ImageListener;
 
 import java.beans.*;
 
-public class MedianFilterBeanBeanInfo extends SimpleBeanInfo {
+public class ImgSourceBeanBeanInfo extends SimpleBeanInfo {
 
     public PropertyDescriptor[] getPropertyDescriptors() {
         try {
-            PropertyDescriptor[] props = {
-                    new PropertyDescriptor("filterShape", MedianFilterBean.class),
-                    new PropertyDescriptor("maskSize", MedianFilterBean.class)
+            return new PropertyDescriptor[]{
+                    new PropertyDescriptor("filePath", ImgSourceBean.class)
             };
-            props[0].setPropertyEditorClass(MedianFilterShapeEditor.class);
-            return props;
         } catch (IntrospectionException e) {
             return super.getPropertyDescriptors();
         }
@@ -23,7 +19,7 @@ public class MedianFilterBeanBeanInfo extends SimpleBeanInfo {
     public EventSetDescriptor[] getEventSetDescriptors() {
         try {
             return new EventSetDescriptor[]{
-                    new EventSetDescriptor(MedianFilterBean.class, "image", ImageListener.class, "onImage")
+                    new EventSetDescriptor(ImgSourceBean.class, "image", ImageListener.class, "onImage")
             };
         } catch (IntrospectionException e) {
             return super.getEventSetDescriptors();
@@ -33,7 +29,7 @@ public class MedianFilterBeanBeanInfo extends SimpleBeanInfo {
     public MethodDescriptor[] getMethodDescriptors() {
         try {
             return new MethodDescriptor[]{
-                    new MethodDescriptor(MedianFilterBean.class.getMethod("onImage", ImageEvent.class))
+                    new MethodDescriptor(ImgSourceBean.class.getMethod("start"))
             };
         } catch (NoSuchMethodException e) {
             return super.getMethodDescriptors();

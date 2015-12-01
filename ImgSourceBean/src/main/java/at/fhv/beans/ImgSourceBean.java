@@ -6,7 +6,6 @@ import at.fhv.beans.shared.interfaces.ImageListener;
 import at.fhv.pimpmypipe.interfaces.Writeable;
 
 import javax.media.jai.PlanarImage;
-import java.awt.event.ActionEvent;
 
 public class ImgSourceBean implements ImageEventSource {
 
@@ -29,7 +28,7 @@ public class ImgSourceBean implements ImageEventSource {
         _filePath = filepath;
     }
 
-    public void start(ActionEvent event) {
+    public void start() {
         new Thread(new ImgSource(_writeable, _filePath)).start();
     }
 
