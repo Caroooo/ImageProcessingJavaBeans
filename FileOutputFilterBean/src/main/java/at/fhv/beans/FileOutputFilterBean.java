@@ -10,24 +10,18 @@ import javax.media.jai.PlanarImage;
 import java.io.File;
 import java.io.StreamCorruptedException;
 
-/**
- * Created by Caroline on 01.12.2015.
- */
 public class FileOutputFilterBean implements ImageEventSource, ImageListener {
-
 
     private ImageEventSupport _imageEventSupport;
     private Writeable<PlanarImage> _writeable;
 
     private String _filePath;
 
-    public FileOutputFilterBean(){
-
+    public FileOutputFilterBean() {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
         _filePath = "";
     }
-
 
     public String getFilePath() {
         return _filePath;
