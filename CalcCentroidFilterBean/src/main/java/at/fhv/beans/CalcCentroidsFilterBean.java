@@ -11,12 +11,12 @@ import at.fhv.pimpmypipe.interfaces.Writeable;
 import java.io.StreamCorruptedException;
 import java.util.LinkedList;
 
-public class CalcCentroidFilterBean implements CoordinateEventSource, ImageListener {
+public class CalcCentroidsFilterBean implements CoordinateEventSource, ImageListener {
 
     private CoordinateEventSupport _coordinateEventSupport;
     private Writeable<LinkedList<Coordinate>> _writeable;
 
-    public CalcCentroidFilterBean() {
+    public CalcCentroidsFilterBean() {
         _coordinateEventSupport = new CoordinateEventSupport();
         _writeable = coordinates -> _coordinateEventSupport.notifyCoordinateListeners(coordinates);
 
