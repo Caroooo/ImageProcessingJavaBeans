@@ -22,8 +22,8 @@ public class ThresholdFilterBean implements ImageEventSource, ImageListener {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
         _low = 0;
-        _high = 0;
-        _map = 0;
+        _high = 30;
+        _map = 255;
     }
 
     public double getLow() {

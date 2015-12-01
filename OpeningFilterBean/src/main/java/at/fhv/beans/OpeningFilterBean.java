@@ -22,9 +22,13 @@ public class OpeningFilterBean implements ImageEventSource, ImageListener {
     public OpeningFilterBean() {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
-        _kernelMatrix = new float[]{0};
-        _matrixSize = 1;
-        _iterations = 1;
+        _kernelMatrix = new float[]{
+                0, 0, 0,
+                0, 1, 0,
+                0, 0, 0
+        };
+        _matrixSize = 3;
+        _iterations = 5;
     }
 
     public String getKernelMatrix() {

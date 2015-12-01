@@ -16,6 +16,7 @@ public class ToleranceFilterBean implements CoordinateEventSource, CoordinateLis
 
     private CoordinateEventSupport _coordinateEventSupport;
     private Writeable<LinkedList<Coordinate>> _writeable;
+    private ToleranceFilter _toleranceFilter;
 
     private Coordinate[] _optimalPositions;
     private int _xTol;
@@ -25,9 +26,9 @@ public class ToleranceFilterBean implements CoordinateEventSource, CoordinateLis
     public ToleranceFilterBean() {
         _coordinateEventSupport = new CoordinateEventSupport();
         _writeable = coordinates -> _coordinateEventSupport.notifyCoordinateListeners(coordinates);
-        _optimalPositions = new Coordinate[]{new Coordinate(0, 0)};
-        _xTol = 0;
-        _yTol = 0;
+        _optimalPositions = new Coordinate[]{new Coordinate(0, 80), new Coordinate(70, 80), new Coordinate(140, 80), new Coordinate(210, 80), new Coordinate(280, 80), new Coordinate(350, 80), new Coordinate(420, 80)};
+        _xTol = 20;
+        _yTol = 20;
         _filePath = "";
     }
 
@@ -85,9 +86,15 @@ public class ToleranceFilterBean implements CoordinateEventSource, CoordinateLis
 
     @Override
     public void onCoordinate(CoordinateEvent event) {
-        ToleranceFilter toleranceFilter = new ToleranceFilter(_writeable, _optimalPositions, _xTol, _yTol, new File(_filePath));
+        if ((_toleranceFilter == null)) {
+            _toleranceFilter = new ToleranceFilter(_writeable, _optimalPositions, _xTol, _yTol, new File(_filePath));
+        }
         try {
-            toleranceFilter.write(event.getCoordinates());
+            LinkedList<Coordinate> coordinates = event.getCoordinates();
+            _toleranceFilter.write(coordinates);
+            if (coordinates == null) {
+                _toleranceFilter = null;
+            }
         } catch (StreamCorruptedException e) {
             e.printStackTrace();
         }

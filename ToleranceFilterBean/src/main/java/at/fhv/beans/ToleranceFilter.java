@@ -89,6 +89,7 @@ public class ToleranceFilter extends AbstractFilter<LinkedList<Coordinate>, Link
                 checkTolerance(coordinates);
             } else {
                 _output.close();
+                _output = null;
             }
         } catch (IOException e) {
             e.printStackTrace();

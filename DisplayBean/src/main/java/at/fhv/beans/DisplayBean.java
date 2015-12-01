@@ -36,7 +36,7 @@ public class DisplayBean extends Panel implements ImageEventSource, ImageListene
             removeAll();
             add(new DisplayJAI(image));
             revalidate();
-            _imageEventSupport.notifyImageListeners(image);
         }
+        _imageEventSupport.notifyImageListeners(image);
     }
 }

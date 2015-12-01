@@ -24,9 +24,9 @@ public class ROIFilterBean implements ImageEventSource, ImageListener {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
         _topLeftX = 0;
-        _topLeftY = 0;
-        _width = 0;
-        _height = 0;
+        _topLeftY = 50;
+        _width = 448;
+        _height = 100;
     }
 
     public int getTopLeftX() {

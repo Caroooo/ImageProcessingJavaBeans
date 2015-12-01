@@ -19,7 +19,6 @@ public class CalcCentroidsFilterBean implements CoordinateEventSource, ImageList
     public CalcCentroidsFilterBean() {
         _coordinateEventSupport = new CoordinateEventSupport();
         _writeable = coordinates -> _coordinateEventSupport.notifyCoordinateListeners(coordinates);
-
     }
 
     @Override

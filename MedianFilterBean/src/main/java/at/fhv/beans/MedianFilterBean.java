@@ -23,7 +23,7 @@ public class MedianFilterBean implements ImageEventSource, ImageListener {
         _imageEventSupport = new ImageEventSupport();
         _writeable = image -> _imageEventSupport.notifyImageListeners(image);
         _filterShape = MedianFilterDescriptor.MEDIAN_MASK_SQUARE;
-        _maskSize = 0;
+        _maskSize = 3;
     }
 
     public String getFilterShape() {
