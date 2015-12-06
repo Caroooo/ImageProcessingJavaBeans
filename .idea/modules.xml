@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CalcCentroidFilterBean/CalcCentroidFilterBean.iml" filepath="$PROJECT_DIR$/CalcCentroidFilterBean/CalcCentroidFilterBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalcCentroidsFilterBean/CalcCentroidFilterBean.iml" filepath="$PROJECT_DIR$/CalcCentroidsFilterBean/CalcCentroidFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClosingFilterBean/ClosingFilterBean.iml" filepath="$PROJECT_DIR$/ClosingFilterBean/ClosingFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/DilateFilterBean/DilateFilterBean.iml" filepath="$PROJECT_DIR$/DilateFilterBean/DilateFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/DisplayBean/DisplayBean.iml" filepath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
