@@ -1,4 +1,4 @@
-package beans;
+package at.fhv.beans;
 
 import at.fhv.beans.shared.ImageEventSupport;
 import at.fhv.beans.shared.events.ImageEvent;

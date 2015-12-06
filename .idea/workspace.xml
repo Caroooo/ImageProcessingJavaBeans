@@ -3,57 +3,42 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="CalcCentroidFilterBean:jar" />
+      <artifact name="ClosingFilterBean:jar" />
+      <artifact name="DilateFilterBean:jar" />
       <artifact name="DisplayBean:jar" />
+      <artifact name="ErodeFilterBean:jar" />
       <artifact name="FileOutputFilterBean:jar" />
-      <artifact name="FileSink:jar" />
+      <artifact name="FileSinkBean:jar" />
       <artifact name="ImgSourceBean:jar" />
       <artifact name="MedianFilterBean:jar" />
       <artifact name="OpeningFilterBean:jar" />
+      <artifact name="OverlayFilterBean:jar" />
       <artifact name="ROIFilterBean:jar" />
       <artifact name="ThresholdFilterBean:jar" />
       <artifact name="ToleranceFilterBean:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="added missing beans">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ClosingFilterBean_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/DilateFilterBean_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ErodeFilterBean_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/FileSinkBean_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClosingFilterBean/ClosingFilterBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClosingFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBeanBeanInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DilateFilterBean/DilateFilterBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBeanBeanInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErodeFilterBean/ErodeFilterBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilterBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilterBeanBeanInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileSinkBean/FileSinkBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileSinkBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSinkBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSinkBeanBeanInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpeningFilterBean/ClosingFilterBean.iml" />
+    <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="added overlay filter bean">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/OverlayFilterBean_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/OverlayFilterBean.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/ImageBufferFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBeanBeanInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ClosingFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ClosingFilterBean_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/DilateFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/DilateFilterBean_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ErodeFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ErodeFilterBean_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FileSinkBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FileSinkBean_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ROIFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ROIFilterBean_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CalcCentroidFilterBean/CalcCentroidFilterBean.iml" afterPath="$PROJECT_DIR$/CalcCentroidFilterBean/CalcCentroidFilterBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" afterPath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileOutputFilterBean/FileOutputFilterBean.iml" afterPath="$PROJECT_DIR$/FileOutputFilterBean/FileOutputFilterBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileOutputFilterBean/src/main/java/at/fhv/beans/FileOutputFilterBean.java" afterPath="$PROJECT_DIR$/FileOutputFilterBean/src/main/java/at/fhv/beans/FileOutputFilterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" afterPath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" afterPath="$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpeningFilterBean/OpeningFilterBean.iml" afterPath="$PROJECT_DIR$/OpeningFilterBean/OpeningFilterBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" afterPath="$PROJECT_DIR$/ROIFilterBean/ROIFilterBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/Shared.iml" afterPath="$PROJECT_DIR$/Shared/Shared.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThresholdFilterBean/ThresholdFilterBean.iml" afterPath="$PROJECT_DIR$/ThresholdFilterBean/ThresholdFilterBean.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToleranceFilterBean/ToleranceFilterBean.iml" afterPath="$PROJECT_DIR$/ToleranceFilterBean/ToleranceFilterBean.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilter.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBean.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBeanBeanInfo.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBeanBeanInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilter.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilterBean.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilterBeanBeanInfo.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBeanBeanInfo.java" />
     </list>
     <ignored path="ImageProcessingJavaBeans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,14 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_osborne.zip/osborne/ee/Plotter.java" />
-        <option value="$PROJECT_DIR$/MedianFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/MedianFilterBean/src/main/java/at/fhv/beans/MedianFilter.java" />
-        <option value="$PROJECT_DIR$/MedianFilterBean/src/main/java/at/fhv/beans/MedianFilterShapeEditor.java" />
-        <option value="$PROJECT_DIR$/OpeningFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/OpeningFilterBean/src/main/java/at/fhv/beans/OpeningFilter.java" />
-        <option value="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/ThresholdFilterBean/src/main/java/at/fhv/beans/ThresholdFilter.java" />
         <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/Coordinate.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEvent.java" />
@@ -148,6 +125,14 @@
         <option value="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ClosingFilter.java" />
         <option value="$PROJECT_DIR$/ErodeFilterBean/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilter.java" />
+        <option value="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilter.java" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/beans/ErodeFilter.java" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/ErodeFilter.java" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilter.java" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/ImageBufferFilter.java" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java" />
+        <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBeanBeanInfo.java" />
       </list>
     </option>
   </component>
@@ -226,16 +211,14 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jai_core.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jai_codec.jar!/" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26551723" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="recentsLimit" value="5" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -252,11 +235,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\OverlayFilterBean\src\main\java" />
       <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\ErodeFilterBean\src\main\java" />
       <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\DilateFilterBean\src\main\java" />
       <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\ClosingFilter\src\main\java" />
       <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\FileSink\src\main\java\at\fhv\beans" />
-      <recent name="D:\IdeaProjects\ImageProcessingJavaBeans\FileSink\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Test">
@@ -746,7 +729,7 @@
       <workItem from="1448884652568" duration="2821000" />
       <workItem from="1448976258438" duration="7397000" />
       <workItem from="1449043044457" duration="11000" />
-      <workItem from="1449394501816" duration="1953000" />
+      <workItem from="1449394501816" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="put pimpMyPipe in separate module">
       <created>1448281275204</created>
@@ -910,11 +893,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448983569403</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added missing beans">
+      <created>1449396464063</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1449396464063</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50332000" />
+    <option name="totallyTimeSpent" value="53260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -927,6 +916,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30441642" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3103953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -936,14 +926,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -976,7 +965,8 @@
     <MESSAGE value="added some beaninfo classes" />
     <MESSAGE value="bugfix tolerance filter" />
     <MESSAGE value="added missing beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="added missing beans" />
+    <MESSAGE value="added overlay filter bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="added overlay filter bean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,34 +979,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/ImageEventSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08415841">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/ImageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateEventSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66288954">
@@ -1178,24 +1140,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalcCentroidFilterBean/src/main/java/at/fhv/beans/CalcCentroidsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PimpMyPipe/src/main/java/at/fhv/pimpmypipe/filters/AbstractFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33171913">
           <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PimpMyPipe/src/main/java/at/fhv/pimpmypipe/filters/DataEnrichmentFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55690074">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1271,8 +1219,8 @@
         <state vertical-scroll-proportion="0.6452145">
           <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
           <folding>
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1282,7 +1230,7 @@
         <state vertical-scroll-proportion="0.32673267">
           <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1292,7 +1240,7 @@
         <state vertical-scroll-proportion="0.47524753">
           <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1337,7 +1285,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilter.java">
+    <entry file="file://$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1221122">
           <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
@@ -1345,7 +1293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBean.java">
+    <entry file="file://$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.037953794">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -1361,10 +1309,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilter.java">
+    <entry file="file://$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3184818">
+        <state vertical-scroll-proportion="1.9346247">
           <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcCentroidFilterBean/src/main/java/at/fhv/beans/CalcCentroidsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4527845">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PimpMyPipe/src/main/java/at/fhv/pimpmypipe/filters/DataEnrichmentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.99515736">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/ImageBufferFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1646489">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.52300245">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBeanBeanInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49394673">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041162226">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1427,7 +1426,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ToleranceFilterBean</last-edited>
+          <last-edited>OverlayFilterBean</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

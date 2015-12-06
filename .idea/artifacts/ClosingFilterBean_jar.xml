@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="ClosingFilterBean:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/ClosingFilterBean_jar</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/beans</output-path>
     <root id="archive" name="ClosingFilterBean.jar">
       <element id="module-output" name="ClosingFilterBean" />
       <element id="module-output" name="PimpMyPipe" />

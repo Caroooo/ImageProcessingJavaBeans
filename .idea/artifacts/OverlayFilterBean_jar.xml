@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="ErodeFilterBean:jar">
+  <artifact type="jar" name="OverlayFilterBean:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/beans</output-path>
-    <root id="archive" name="ErodeFilterBean.jar">
-      <element id="module-output" name="ErodeFilterBean" />
+    <root id="archive" name="OverlayFilterBean.jar">
+      <element id="module-output" name="OverlayFilterBean" />
       <element id="module-output" name="PimpMyPipe" />
       <element id="module-output" name="Shared" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/jai_codec.jar" path-in-jar="/" />

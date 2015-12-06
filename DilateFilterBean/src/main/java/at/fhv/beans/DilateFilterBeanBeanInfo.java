@@ -1,18 +1,18 @@
-package beans;
+package at.fhv.beans;
 
 import at.fhv.beans.shared.events.ImageEvent;
 import at.fhv.beans.shared.interfaces.ImageListener;
 
 import java.beans.*;
 
-public class ErodeFilterBeanBeanInfo extends SimpleBeanInfo {
+public class DilateFilterBeanBeanInfo extends SimpleBeanInfo {
 
     public PropertyDescriptor[] getPropertyDescriptors() {
         try {
             return new PropertyDescriptor[]{
-                    new PropertyDescriptor("kernelMatrix", ErodeFilterBean.class),
-                    new PropertyDescriptor("matrixSize", ErodeFilterBean.class),
-                    new PropertyDescriptor("iterations", ErodeFilterBean.class)
+                    new PropertyDescriptor("kernelMatrix", DilateFilterBean.class),
+                    new PropertyDescriptor("matrixSize", DilateFilterBean.class),
+                    new PropertyDescriptor("iterations", DilateFilterBean.class)
             };
         } catch (IntrospectionException e) {
             return super.getPropertyDescriptors();
@@ -22,7 +22,7 @@ public class ErodeFilterBeanBeanInfo extends SimpleBeanInfo {
     public EventSetDescriptor[] getEventSetDescriptors() {
         try {
             return new EventSetDescriptor[]{
-                    new EventSetDescriptor(ErodeFilterBean.class, "image", ImageListener.class, "onImage")
+                    new EventSetDescriptor(DilateFilterBean.class, "image", ImageListener.class, "onImage")
             };
         } catch (IntrospectionException e) {
             return super.getEventSetDescriptors();
@@ -32,7 +32,7 @@ public class ErodeFilterBeanBeanInfo extends SimpleBeanInfo {
     public MethodDescriptor[] getMethodDescriptors() {
         try {
             return new MethodDescriptor[]{
-                    new MethodDescriptor(ErodeFilterBean.class.getMethod("onImage", ImageEvent.class))
+                    new MethodDescriptor(DilateFilterBean.class.getMethod("onImage", ImageEvent.class))
             };
         } catch (NoSuchMethodException e) {
             return super.getMethodDescriptors();
