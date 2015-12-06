@@ -44,7 +44,6 @@ public class FileOutputFilterBean implements ImageEventSource, ImageListener {
     @Override
     public void onImage(ImageEvent event) {
         FileOutputFilter fileOutputFilter = new FileOutputFilter(_writeable, new File(_filePath));
-
         try {
             fileOutputFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {

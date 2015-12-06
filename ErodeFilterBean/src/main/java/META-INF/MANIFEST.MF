@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Name: at/fhv/beans/ErodeFilterBean.class
+Java-Bean: True

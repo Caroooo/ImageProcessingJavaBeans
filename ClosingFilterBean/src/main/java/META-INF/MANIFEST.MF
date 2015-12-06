@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Name: at/fhv/beans/ClosingFilterBean.class
+Java-Bean: True
