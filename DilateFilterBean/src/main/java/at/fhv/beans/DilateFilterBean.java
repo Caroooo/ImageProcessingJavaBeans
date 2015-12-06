@@ -76,9 +76,9 @@ public class DilateFilterBean implements ImageEventSource, ImageListener {
 
     @Override
     public void onImage(ImageEvent event) {
-        DilateFilter openingFilter = new DilateFilter(_writeable, _kernelMatrix, _matrixSize, _iterations);
+        DilateFilter dilateFilter = new DilateFilter(_writeable, _kernelMatrix, _matrixSize, _iterations);
         try {
-            openingFilter.write(event.getImage());
+            dilateFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {
             e.printStackTrace();
         }

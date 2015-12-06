@@ -76,9 +76,9 @@ public class ClosingFilterBean implements ImageEventSource, ImageListener {
 
     @Override
     public void onImage(ImageEvent event) {
-        ClosingFilter openingFilter = new ClosingFilter(_writeable, _kernelMatrix, _matrixSize, _iterations);
+        ClosingFilter closingFilter = new ClosingFilter(_writeable, _kernelMatrix, _matrixSize, _iterations);
         try {
-            openingFilter.write(event.getImage());
+            closingFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {
             e.printStackTrace();
         }

@@ -19,26 +19,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="added overlay filter bean">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/OverlayFilterBean_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/OverlayFilterBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/ImageBufferFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBeanBeanInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ClosingFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ClosingFilterBean_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/DilateFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/DilateFilterBean_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ErodeFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ErodeFilterBean_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FileSinkBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FileSinkBean_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ROIFilterBean_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ROIFilterBean_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="0d960dae-7d9b-4859-81d8-d2b12ac12b93" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilter.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBean.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/beans/DilateFilterBeanBeanInfo.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBeanBeanInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilter.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilterBean.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/beans/ErodeFilterBeanBeanInfo.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBeanBeanInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBean.java" afterPath="$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java" afterPath="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBean.java" afterPath="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBean.java" />
     </list>
     <ignored path="ImageProcessingJavaBeans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +45,18 @@
     <favorites_list name="ImageProcessingJavaBeans" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="FileSinkBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSinkBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.012106538">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,9 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/ToleranceFilterBean/src/main/java/at/fhv/beans/Coordinate.java" />
-        <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/CoordinateEvent.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/interfaces/CoordinateEventSource.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java" />
@@ -133,6 +126,9 @@
         <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/ImageBufferFilter.java" />
         <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java" />
         <option value="$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBeanBeanInfo.java" />
+        <option value="$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBean.java" />
+        <option value="$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java" />
+        <option value="$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBean.java" />
       </list>
     </option>
   </component>
@@ -729,7 +725,7 @@
       <workItem from="1448884652568" duration="2821000" />
       <workItem from="1448976258438" duration="7397000" />
       <workItem from="1449043044457" duration="11000" />
-      <workItem from="1449394501816" duration="4881000" />
+      <workItem from="1449394501816" duration="5615000" />
     </task>
     <task id="LOCAL-00001" summary="put pimpMyPipe in separate module">
       <created>1448281275204</created>
@@ -899,11 +895,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449396464063</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added overlay filter bean">
+      <created>1449399392439</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1449399392439</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53260000" />
+    <option name="totallyTimeSpent" value="53994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -979,13 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/model/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66288954">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shared/src/main/java/at/fhv/beans/shared/events/CoordinateEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1077,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSourceBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1144,13 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33171913">
           <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalcCentroidFilterBean/src/main/java/at/fhv/beans/CalcCentroidsFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1225,16 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSinkBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32673267">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47524753">
@@ -1249,22 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028052805">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.087458745">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29867986">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1289,14 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1221122">
           <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.037953794">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1341,14 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.52300245">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBeanBeanInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49394673">
@@ -1364,6 +1303,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.041162226">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImgSourceBean/src/main/java/at/fhv/beans/ImgSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041162226">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcCentroidFilterBean/src/main/java/at/fhv/beans/CalcCentroidsFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68038744">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42372882">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClosingFilterBean/src/main/java/at/fhv/beans/ClosingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.68765134">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DilateFilterBean/src/main/java/at/fhv/beans/DilateFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47457626">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErodeFilterBean/src/main/java/at/fhv/beans/ErodeFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42372882">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OverlayFilterBean/src/main/java/at/fhv/beans/OverlayFilterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.52300245">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileSinkBean/src/main/java/at/fhv/beans/FileSinkBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.012106538">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding />
         </state>
       </provider>

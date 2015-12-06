@@ -76,9 +76,9 @@ public class ErodeFilterBean implements ImageEventSource, ImageListener {
 
     @Override
     public void onImage(ImageEvent event) {
-        ErodeFilter openingFilter = new ErodeFilter(_writeable, _kernelMatrix, _matrixSize, _iterations);
+        ErodeFilter erodeFilter = new ErodeFilter(_writeable, _kernelMatrix, _matrixSize, _iterations);
         try {
-            openingFilter.write(event.getImage());
+            erodeFilter.write(event.getImage());
         } catch (StreamCorruptedException e) {
             e.printStackTrace();
         }
