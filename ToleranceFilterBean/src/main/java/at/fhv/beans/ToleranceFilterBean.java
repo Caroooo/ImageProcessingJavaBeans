@@ -86,7 +86,7 @@ public class ToleranceFilterBean implements CoordinateEventSource, CoordinateLis
 
     @Override
     public void onCoordinate(CoordinateEvent event) {
-        if ((_toleranceFilter == null)) {
+        if (_toleranceFilter == null) {
             _toleranceFilter = new ToleranceFilter(_writeable, _optimalPositions, _xTol, _yTol, new File(_filePath));
         }
         try {

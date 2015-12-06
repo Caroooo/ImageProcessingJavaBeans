@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalcCentroidsFilterBean/CalcCentroidFilterBean.iml" filepath="$PROJECT_DIR$/CalcCentroidsFilterBean/CalcCentroidFilterBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalcCentroidsFilterBean/CalcCentroidsFilterBean.iml" filepath="$PROJECT_DIR$/CalcCentroidsFilterBean/CalcCentroidsFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClosingFilterBean/ClosingFilterBean.iml" filepath="$PROJECT_DIR$/ClosingFilterBean/ClosingFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/DilateFilterBean/DilateFilterBean.iml" filepath="$PROJECT_DIR$/DilateFilterBean/DilateFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/DisplayBean/DisplayBean.iml" filepath="$PROJECT_DIR$/DisplayBean/DisplayBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ErodeFilterBean/ErodeFilterBean.iml" filepath="$PROJECT_DIR$/ErodeFilterBean/ErodeFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileOutputFilterBean/FileOutputFilterBean.iml" filepath="$PROJECT_DIR$/FileOutputFilterBean/FileOutputFilterBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileSinkBean/FileSink.iml" filepath="$PROJECT_DIR$/FileSinkBean/FileSink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileSinkBean/FileSinkBean.iml" filepath="$PROJECT_DIR$/FileSinkBean/FileSinkBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageProcessingJavaBeans.iml" filepath="$PROJECT_DIR$/ImageProcessingJavaBeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" filepath="$PROJECT_DIR$/ImgSourceBean/ImgSourceBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" filepath="$PROJECT_DIR$/MedianFilterBean/MedianFilterBean.iml" />
